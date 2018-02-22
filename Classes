@@ -1,0 +1,127 @@
+<html>
+<head>
+<style>
+body {	
+background: #212121;
+}
+
+.butt {
+  font-family: 'Raleway', Arial, sans-serif;
+  border: none;
+  background-color: #5666a5;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0px 30px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  line-height: 46px;
+  font-weight: 400;
+  font-size: 1em;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+  border-radius: 23px;
+  letter-spacing: 2px;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.dropbtn {
+  border: none;
+  background-color: #5666a5;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0px 30px;
+  display: inline-block;
+  margin: 3px 30px;
+  text-transform: uppercase;
+  line-height: 46px;
+  font-weight: 400;
+  font-size: 1em;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+  border-radius: 23px;
+  letter-spacing: 2px;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #5666a5;
+}
+
+.teach {
+  background-color: white;
+  width: 600px;
+  height: 300px:
+  padding: 15px 15px;
+}	
+</style>
+</head>
+<body>
+<nav>
+  <div class="dropdown">
+  <button class="dropbtn">CTE Classes</button>
+  <button class="dropbtn">CTE Classes</button>
+  <button class="dropbtn">CTE Classes</button>
+  <button class="butt">CTE Classes</button>
+   <div class="dropdown-content">
+    <a href="#">Mr. Benson</a>
+    <a href="#">Barbara</a>
+    <a href="#">Link 3</a>
+    </div>
+</div>
+</nav>
+	<div class="teach">
+	Mr. Benson's classes
+	</div>
+	<div class="teach">
+	Barbara's classes
+	</div>
+	<div class="teach">
+	Joe's classes
+	</div>
+	<div class="teach">
+	Jim's classes
+	</div>
+</body>
+</html>
