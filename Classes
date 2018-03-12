@@ -20,7 +20,6 @@ background: #212121;
   font-weight: 400;
   font-size: 1em;
   outline: none;
-  position: relative;
   overflow: hidden;
   font-size: 16px;
   border-radius: 23px;
@@ -58,70 +57,89 @@ background: #212121;
   box-sizing: border-box;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: relative;
-    background-color: #f9f9f9;
-    min-width: 20px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 5px 5px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #5666a5;
-}
-
 .teach {
-  background-color: white;
-  width: 600px;
-  height: 300px:
-  padding: 15px 15px;
-}	
+	background-color: white;
+	width: 70%;
+	height: 25%:
+	padding: 15px 15px;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align:;
+	position: relative;
+}
+
 </style>
 </head>
 <body>
 <nav>
-  <div class="dropdown">
-  <button class="dropbtn">CTE Classes</button>
-  <button class="dropbtn">CTE Classes</button>
-  <button class="dropbtn">CTE Classes</button>
-  <button class="butt">CTE Classes</button>
-   <div class="dropdown-content">
-    <a href="#">Mr. Benson</a>
-    <a href="#">Barbara</a>
-    <a href="#">Link 3</a>
-    </div>
+  <div class="dropdown" align="center">
+  <button class="dropbtn">Home</button>
+  <button class="dropbtn">CTE</button>
+  <button class="dropbtn">TSA</button>
+  <button class="butt">Design Brief</button>
 </div>
 </nav>
 	<div class="teach">
-	Mr. Benson's classes
+	<h1 align="center">Mr. Benson's Classes:</h1>
+	<p><b><u>CAD Architectural Design</u></b> is divided into three (3) sections. The first being CAD Architectural Design 1 which focuses on the development of the students basic and essential skills. Students are assigned a simple series of tasks that have some basic yet absolutely essential skills which enable them to solve complex design problems. These skills begin with conceptual sketching of a simple beach house or mountain cabin and progress to a 1800 to 2400 square foor home. In the end the goal is that each student will have developed the essential skills needed to create a functional set of building plans complete with schematics and presentation renderings. 
+	
+	CAD Architectural Design 2 & 3 are cover sequentially with the students delving into more complex designs that have additional requirements. These range form ADA needs to local and regional building codes.</p>
+	<p><b><u>CAD Mechanical Design</u></b> courses are divided in the multiple sections like our CAD Architectural Design courses. Again this is to build and develop basic and essential skills that are then used to create and develop more and more complex concepts and ideas. 
+
+	CAD Mechanical 1 focuses on the critical skills associated with technical drawings including line types, weights, and sheet lay out. This is done through projects that are open ended and allow students two become fully vested in the process by selecting intrinsically motivated ideas that meet the assignment specifications. </p>
+	<p><b><u>CAP Stone</u></b> course is one that is design to allow a student to develop their skills and show off their abilities. This is a portfolio course that requires the students to come up with an industrial or professional standard project that will become the core of the final portfolio. </p>
+
+	<p><b><u>Principles of Engineering</u></b> course is designed allowing the students to explore the career through projects designed to guide the students through the engineering processing. These will run the gambit from civil engineering experiments and structural problems to fluids and product designs. </p>
 	</div>
 	<div class="teach">
-	Barbara's classes
+	<h1 align="center">Mrs. Johnson's Classes:</h1>
+	<p><b><u>Business Communications 1</u></b> is an introductory course will teach students to communicate in a clear, courteous, concise, complete, and correct manner on both personal and professional levels. Competency will be developed in oral, written, interpersonal, technological, and employment communication. Listening skills will be incorporated throughout the semester. The overriding goal is to provide students with a solid communication base so that they are able to communicate effectively.</p>
+	
+	<p><b><u>Business Communications 2</u></b> is an advanced course will build upon the skills acquired in Business Communications I or used as a stand-alone class that focuses on additional methods of professional communication skills.  Competency will be developed in oral, written, interpersonal, technological, and employment communication.  Listening skills will be incorporated throughout the semester. The goal is to provide students with a practical, proficient portfolio consisting of a cover letter, resume, and follow-up letter. Students will complete the course with a greater understanding of the impact of technology and the need for effective communication skills to advance in a business career.</p>
+	
+	<p><b><u>Business Web Design</u></b> is a semester course provides students with a major emphasis on the principles and design of a website as well as advanced Internet skills and techniques. HTML, Web editing, and graphic editing software will be used to design, create, format, and edit Web pages.</p>
+	
+	<p><b><u>Computer Tech</u></b> is a foundational element of success in today’s technology-driven world. This course is intended to help students learn concepts associated with key application software, basic computing fundamentals, and ethics and appropriate behavior while using technology as a tool in the classroom and in life. This course is aligned with national and international standards and the Utah Core to prepare students across multiple levels of skills. Students have the opportunity to test out of this course by successfully passing Certiport’s IC3 GS4 certifications. Students will have an opportunity to practice for and pass the Microsoft Office Specialist certifications in Word, Excel, PowerPoint.</p>
+	
+	<p> <b><u>CSIS 1000</u></b> is a course designed to explore concepts of microcomputer systems.  Concepts include: Windows and general information, word processing, spreadsheets, presentations, Internet, other computer applications (photo editing, audio editing, ePortfolios, computer programming, and 3D computer graphics), and ethical reasoning.</p>
 	</div>
 	<div class="teach">
-	Joe's classes
+	<h1 align="center">Mr. Potter's Classes:</h1>
+	<p><b><u>Business Law</u></b> is a semester class where students will gain an understanding of the law as it relates to them currently and the
+	implications of the law in their future lives as well, as the lives of their family and friends.
+	They will also work to gain an understanding of basic legal vocabulary. The course will
+	include an understanding of the court system at the local, state, and national levels.
+	Students will gain an understanding of contract law, their rights and responsibilities as
+	citizens, utilization of financial transactions, employment and agency relationships, and the
+	regulations governing different types of business organizations.</p>
+
+	<p><b><u>Digital Marketing</u></b> is a course is designed to give students a general background to digital
+	marketing and an introduction to the rapidly growing and evolving career field. Students will be
+	exposed to the fundamental concepts and principles of the digital experience, focus on the
+	learning tools and skills necessary for solving business problems, and developing marketing
+	opportunities. This course will provide practical experience in, but not limited to: e-commerce,
+	media planning, branding, online advertising, display advertising, digital campaigns, social
+	media marketing, and mobile media.</p>
+
+	<p><b><u>Financial Literacy</u></b> is a class is designed for Juniors and Seniors and represents those standards of learning
+	that are essential and necessary for all students. The implementation of the ideas, concepts,
+	knowledge, and skills contained in the General Financial Literacy Core will enable students
+	to implement those decision-making skills they must apply and use to become wise and
+	knowledgeable consumers, savers, investors, users of credit, money managers, citizens, and
+	members of a global workforce and society.</p>
+
+	<p><b><u>Sports and Entertainment Marketing</u></b> is a class is designed for Sophomores, Juniors and Seniors and represents those standards of learning that are essential and necessary for all students. This is an introductory course, which will help students develop a thorough understanding of the marketing concepts and theories that apply to sports and entertainmen events. The areas this course will cover include basic marketing, target marketing and segmentation, sponsorship, event marketing, promotions, sponsorship proposals, and sports marketing plans. This course will also delve into the components of promotion plans, sponsorship proposals and the key elements needed in sports marketing plans.</p>
 	</div>
 	<div class="teach">
-	Jim's classes
+	<h1 align="center">Mr. Brandt's Classes:</h1>
+	
+	<p><b><u>Accounting 1</u></b> is a class where students will develop skill beginning with an understanding of the basic elements and concepts of double-entry accounting systems. Skills will include a knowledge of the accounting cycle, entering transactions in journals, posting to ledgers, compiling end-of-period worksheets, adjusting and payroll systems, and writing and communication examples. Proficiency of automated accounting procedures is encouraged.</p>
+
+	<p><b><u>Accounting 2</u></b> is a class where students will develop skill beginning with an understanding of the basic elements and concepts of double-entry accounting systems. Skills will include a knowledge of the accounting cycle, entering transactions in journals, posting to ledgers, compiling end-of-period worksheets, adjusting and payroll systems, and writing and communication examples. Proficiency of automated accounting procedures is encouraged.</p>
+
+	<p><b><u>Computer Tech</u></b> is a foundational element of success in today’s technology-driven world. This course is intended to help students learn concepts associated with key application software, basic computing fundamentals, and ethics and appropriate behavior while using technology as a tool in the classroom and in life. This course is aligned with national and international standards and the Utah Core to prepare students across multiple levels of skills. Students have the opportunity to test out of this course by successfully passing Certiport’s IC3 GS4 certifications. Students will have an opportunity to practice for and pass the Microsoft Office Specialist certifications in Word, Excel, PowerPoint.</p>
+
+	<p><b><u>Desktop Publishing</u></b> is a one-semester course provides skill development in the electronic procedures of producing and editing publications. Students will create, format, illustrate, design, edit/revise, and print publications. Improved productivity of electronically produced newsletters, flyers, brochures, reports, advertising materials, and other publications is emphasized. Proofreading, document composition, and communication competencies are also included.</p>
 	</div>
 </body>
 </html>
